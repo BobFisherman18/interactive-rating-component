@@ -20,6 +20,12 @@ img {
     padding: 15px;
     border-radius: 50%;
 }
+h1 {
+    font-size: 25px;
+}
+p {
+    font-size: 15px;
+}
 
 p, span {
     color:  hsl(217, 12%, 63%);
@@ -69,9 +75,6 @@ button:hover {
     color: hsl(25, 97%, 53%);
 }
 
-
-
-
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -82,7 +85,7 @@ button:hover {
   }
 
 
-  @media screen and (min-width:400px) {
+  @media screen and (min-width:374px) {
     main {
         max-width: 358px !important;
     }
