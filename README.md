@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Interactive Rating Solution](https://www.frontendmentor.io/solutions/interactive-rating-using-bootstrap-YRx91tpBQL)
 - Live Site URL: [Interactive Rating Page](https://bobfisherman18.github.io/interactive-rating-component/)
 
 ## My process
