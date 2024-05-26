@@ -21,6 +21,7 @@ console.log(buttonsClicked);
                 //Button 1 Clicked
                 RATE1BUTTON.style.backgroundColor = "hsl(25, 97%, 53%)";
                 RATE1BUTTON.style.color = " hsl(0, 0%, 100%)";
+                localStorage.setItem("rating", "1");
             
                 //All Buttons NOT clicked
                 RATE2BUTTON.style.backgroundColor = "hsla(216, 12%, 54%, 0.1)";
@@ -36,6 +37,7 @@ console.log(buttonsClicked);
                 //Button 2 Clicked
                 RATE2BUTTON.style.backgroundColor = "hsl(25, 97%, 53%)";
                 RATE2BUTTON.style.color = " hsl(0, 0%, 100%)";
+                localStorage.setItem("rating", "2");
 
                 //All Buttons NOT clicked
                 RATE1BUTTON.style.backgroundColor = "hsla(216, 12%, 54%, 0.1)";
@@ -51,6 +53,7 @@ console.log(buttonsClicked);
                 //Button 3 Clicked
                 RATE3BUTTON.style.backgroundColor = "hsl(25, 97%, 53%)";
                 RATE3BUTTON.style.color = " hsl(0, 0%, 100%)";
+                localStorage.setItem("rating", "3");
 
                 //All Buttons NOT clicked
                 RATE1BUTTON.style.backgroundColor = "hsla(216, 12%, 54%, 0.1)";
@@ -66,6 +69,7 @@ console.log(buttonsClicked);
                 //Button 4 Clicked
                 RATE4BUTTON.style.backgroundColor = "hsl(25, 97%, 53%)";
                 RATE4BUTTON.style.color = " hsl(0, 0%, 100%)";
+                localStorage.setItem("rating", "4");
 
                 //All Buttons NOT clicked
                 RATE1BUTTON.style.backgroundColor = "hsla(216, 12%, 54%, 0.1)";
@@ -81,6 +85,7 @@ console.log(buttonsClicked);
                 //Button 5 Clicked
                 RATE5BUTTON.style.backgroundColor = "hsl(25, 97%, 53%)";
                 RATE5BUTTON.style.color = " hsl(0, 0%, 100%)";
+                localStorage.setItem("rating", "5");
 
                 //All Buttons NOT clicked
                 RATE1BUTTON.style.backgroundColor = "hsla(216, 12%, 54%, 0.1)";
@@ -100,6 +105,13 @@ console.log(buttonsClicked);
             console.log("rate 2 Clicked");
         });
       });
+
+      function myFunction() {
+        var w2 = window.open("./thank-you.html");
+        w2.document.getElementById('rateDesc').innerHTML = "Hi";
+        console.log(w2.document.title);
+        
+      }
 
 
   
