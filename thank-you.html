@@ -19,7 +19,6 @@
       href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./thank-you-style.css" />
 
     <title>Frontend Mentor | Thank You</title>
@@ -40,6 +39,8 @@
     <script>
       document.getElementById("rating").innerHTML =
         localStorage.getItem("rating");
+      document.getElementById("rateDesc").innerHTML =
+        localStorage.getItem("rateDesc");
     </script>
     <div class="attribution">
       Challenge by
